@@ -5,11 +5,13 @@ Inspired by the original found at https://libraryofbabel.info/
 
 # Compilation
 
-	1. Go to cloned folder
-	2. $ cmake .
-	3. $ make
+Assuming you are in Linux:
+
+	1. Go to cloned folder 
+	2. cmake .
+	3. make
 	
-The executable is called "babel". Make sure you create a library the first time you launch it.
+The executable is called "babel". Make sure you create a library the first time you launch it.  
 Tip: don't create too many chambers... the library becomes very big filesize wise...
 
 # Tweaking the library
