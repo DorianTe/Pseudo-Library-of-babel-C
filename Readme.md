@@ -1,18 +1,17 @@
 # About
 
-This is a rough implementation of the library of babel in the C programming language only using standard C libraries.
+This is a very naive implementation of the library of babel in the C programming language only using standard C libraries.
 Inspired by the original found at https://libraryofbabel.info/
+I made this during one of my first years in University.
 
 # Compilation
 
-Assuming you are in Linux:
-
-	1. Go to cloned folder 
+	1. git clone https://github.com/DorianTe/Pseudo-Library-of-babel-C.git
 	2. cmake .
 	3. make
 	
 The executable is called "babel". Make sure you create a library the first time you launch it.  
-Tip: don't create too many chambers... the library becomes very big filesize wise...
+Tip: don't create too many chambers... the library can take up a lot of space...
 
 # Tweaking the library
 
@@ -21,6 +20,6 @@ I might implement a configuration file reader so that you dont have to recompile
 
 # Todo's 
 
-- At the moment the text generated doesn't contain punctuation characters like in the original library of babel (spaces, dots and commas), so its one big text...
-- word search algorithm can be improved...
-- configuration file reader instead of defines
+- The generated text doesn't contain punctuation characters like in the original library of babel (spaces, dots and commas), so its one big text...
+- Word search algorithm can be improved...
+- Configuration file reader instead of defines
